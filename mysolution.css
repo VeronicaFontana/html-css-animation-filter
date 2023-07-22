@@ -154,7 +154,7 @@
 
 /* ESERCIZIO 13 */
 .ex-13-button:hover .ex-13-top-white{
-  animation: spintop2 2s;
+  animation: spintop2 2s linear;
 }
 
 @keyframes spintop2{
@@ -162,19 +162,19 @@
     left: 10%;
     top: -10px;
   }
-  20%{
+  15%{
+    left: calc(100% - 30px);
+    top: -10px;
+  }
+  45%{
     left: calc(100% - 30px);
     top: 100%;
   }
-  40%{
-    left: calc(100% - 30px);
-    top: 100%;
-  }
-  60%{
+  75%{
     left: 0;
     top: 100%;
   }
-  80%{
+  90%{
     left: -15px;
     top: -10px;
   }
@@ -193,19 +193,19 @@
     bottom: -10px;
     right: 20%;
   }
-  20%{
+  30%{
     right: calc(100% - 30px);
     bottom: -10px;
   }
-  40%{
+  45%{
     right: calc(100% - 30px);
     bottom: 100%;
   }
-  60%{
+  75%{
     right: 0;
     bottom: 100%;
   }
-  80%{
+  90%{
     right: -15px;
     bottom: -10px;
   }
